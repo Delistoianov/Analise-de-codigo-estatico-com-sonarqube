@@ -6,29 +6,29 @@
    
    ```docker run -d --name sonarqube -p 9000:9000 -p 9092:9092 sonarqube```
 
-![Imagem-Docker-do-sonar](./Assets/Docker-img_sonar.png)
+![Imagem-Docker-do-sonar](./dotnet-sonarqube-example-main/Assets/Docker-img_sonar.png)
 
 2. Após a execução do container entrei na porta 9000 e criei um projeto local.
 
-![Localhost em execução](./Assets/localhost.png)
+![Localhost em execução](./dotnet-sonarqube-example-main/Assets/localhost.png)
 
 1. Ao criar o projeto foi gerado um token. Para executar os testes copiei os comandos da na imagem abaixo e colei no caminho onde a solução “SampleApp” se encontra.
 
 Caminho: \Analise-de-codigo-estatico-com-sonarqube\dotnet-sonarqube-example
 
-![Comandos](./Assets/comando-para-rodar-testes.png)
+![Comandos](./dotnet-sonarqube-example-main/Assets/comando-para-rodar-testes.png)
 
 Resultado obtido no terminal: 
 
-![Resultados do termina](./Assets/resultado-terminal.png)
+![Resultados do termina](./dotnet-sonarqube-example-main/Assets/resultado-terminal.png)
 
-![Resultados do termina](./Assets/resultado-terminal-02.png)
+![Resultados do termina](./dotnet-sonarqube-example-main/Assets/resultado-terminal-02.png)
 
-![Resultados do termina](./Assets/resultado-terminal-03.png)
+![Resultados do termina](./dotnet-sonarqube-example-mainAssets/resultado-terminal-03.png)
 
 ## Resultados dos teste no sonarqube: 
 
-![Resultados dos testes](./Assets/resultado-geral.png)
+![Resultados dos testes](./dotnet-sonarqube-example-main/Assets/resultado-geral.png)
 
 Conclusões: 
 
@@ -41,8 +41,8 @@ Conclusões:
 
 ### Issues sugeridas pelo sonarqube:
 
-![Imagem-Docker-do-sonar](./Assets/issue_01.png)
-![Imagem-Docker-do-sonar](./Assets/issue_02.png)
+![Imagem-Docker-do-sonar](./dotnet-sonarqube-example-main/Assets/issue_01.png)
+![Imagem-Docker-do-sonar](./dotnet-sonarqube-example-main/Assets/issue_02.png)
 
 #### Alterações no controller:
 
@@ -67,8 +67,8 @@ Conclusões:
 
 #### Resultados após refatoração:
 
-![Imagem-Docker-do-sonar](./Assets/resultado-refatorado.png)
-![Imagem-Docker-do-sonar](./Assets/issue-apos-refat.png)
+![Imagem-Docker-do-sonar](./dotnet-sonarqube-example-main/Assets/resultado-refatorado.png)
+![Imagem-Docker-do-sonar](./dotnet-sonarqube-example-main/Assets/issue-apos-refat.png)
 
 
 ## Sobre o Sonarqube:
